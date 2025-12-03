@@ -1,33 +1,32 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "LabOnWeb",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A Virtual Interactive Chemistry Lab designed to make learning science fully immersive. Students can perform realistic experiments in a 3D virtual environment, mix chemicals safely, observe instant reactions, and explore molecular structures with visual simulations.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "The platform guides learners step-by-step, provides real-time feedback, and includes gamified challenges to make chemistry engaging, accessible, and completely risk-free",
+      "Designed a responsive frontend with Tailwind CSS,Three.js enhancing user experience.",
+      
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/labonweb.jpg",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "react",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "three.js",
+        path: "/assets/logos/threejs.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "node.js",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 4,
@@ -38,33 +37,32 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "DSA Question Generator",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "An intelligent DSA Question Generator that creates personalized coding problems based on the user’s skill level.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "The platform dynamically generates questions across topics like arrays, linked lists, trees, graphs, and dynamic programming, helping learners practice efficiently.",
+      "This was an insternship project.",
+      "With instant feedback, difficulty adjustments, and a clean interface, it makes DSA preparation faster, smarter, and fully tailored to each student.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/dsaqq.jpg",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
+        name: "react",
         path: "/assets/logos/react.svg",
       },
       {
+        id: 2,
+        name: "node.js",
+        path: "/assets/logos/nodejs.svg",
+      },
+      {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "mongodb",
+        path: "/assets/logos/mongodb.svg",
       },
       {
         id: 4,
@@ -75,75 +73,63 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Machine Learning Project",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A machine learning project that uses Python and Scikit-learn to predict stock prices(worked on pipeline).",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "A Machine Learning model that predicts outcomes using real-world data and binary classification.",
+      "The system processes input features, applies statistical preprocessing, and uses advanced algorithms like Random Forest to generate accurate 0/1 predictions.",
+      "Built with a focus on simplicity and performance, it helps automate decision-making and provides clear, data-driven results",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/Machine-Learning-Projects.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "Python",
+        path: "/assets/logos/python.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "Scikit-learn",
+        path: "/assets/logos/scikit-learn.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "excel",
+        path: "/assets/logos/microsoft-excel.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Horror game",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "A short 3D horror game built using Unity and Blender, featuring a dark atmospheric environment, interactive objects, and basic enemy mechanics.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
+      "The models and scene elements were created in Blender, while the gameplay logic, movement, triggers, and events were coded in C# inside Unity.",
       "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Designed as a small but immersive experience that demonstrates game design, level creation, and scripting skills.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/Outlast2_WindMill-576x324.jpg",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "Unity",
+        path: "/assets/logos/unity.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Blender",
+        path: "/assets/logos/blender.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "C#",
+        path: "/assets/logos/csharp.svg",
       },
     ],
   },
@@ -186,33 +172,33 @@ export const myProjects = [
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Habit",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "Habit AI is a smart daily-task and habit tracker with an AI assistant that guides users on where to go.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "The app recommends where to go, how long it will take, and when to return, ensuring the user completes all tasks on time.",
+      "It also includes smart reminder technology that automatically delays alarms when the user is on a phone call and triggers them once the call ends.",
+      "With real-time navigation, context-aware notifications, and personalized AI suggestions.",
+      
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/4efd47b0-7d23-4591-8e99-449e3aea390b_1600x830.jpg",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "react native",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
+        name: "node.js",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "html",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 4,
@@ -226,44 +212,40 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://whatsapp.com/8197055167",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/vijay-sharu-7661aa328",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "My First Project",
+    job: "AI Chatbot using Python Flask & Ollama",
+    date: "2024",
     contents: [
       "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Full Stack Developer",
+    job: "Own Project",
+    date: "2024-2025",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Learn how client and server page works.",
+      "how Rest API key works ",
+      "learn designing and new ideas",
+      "made me create this wonderful portfolio and learn three.js.",
+      "worked on a real time project,projects like LabOnWeb,habit and etc ",
     ],
   },
   {
@@ -278,51 +260,15 @@ export const experiences = [
 ];
 export const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
-  },
-  {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
-  },
-  {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
-  },
-  {
-    name: "Alice",
+    name: "Anuj",
     username: "@alice",
     body: "This is hands down the best thing I've experienced. Highly recommend!",
     img: "https://robohash.org/alice",
   },
   {
-    name: "Bob",
-    username: "@bob",
+    name: "Rohit rao",
+    username: "@rao",
     body: "Incredible work! The attention to detail is phenomenal.",
     img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
   },
 ];
